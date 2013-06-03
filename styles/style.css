@@ -1,0 +1,349 @@
+/**  reset  **/
+
+html, body, div, header, footer, section, figure, img, article, nav, ul, li, p, h1, h2, h3, h4, h5{
+	margin: 0;
+	padding: 0;
+	behavior: url(scripts/PIE_uncompressed.htc);
+}
+
+img{
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+html, body{
+	font: 10px;
+	font: 62.5% "Georgia", "Verdana", san-serif;
+	color: #fff;
+	height: 100%;   /** html5 doctype makes the body wap around the content**/
+	width: 100%; /** html5 doctype makes the body wap around the content**/
+	text-align: center;  /** fix for margin: auto NW below IE10 **/
+						/** side effect: centers inner content **/
+	/** background:url('') no-repeat 0 center #fff;**/
+	
+
+		/** Color Zilla **/background: rgb(255,255,255); /* Old browsers */
+			background: -moz-linear-gradient(top,  rgba(255,255,255,1) 1%, rgba(249,246,227,1) 76%, rgba(236,225,165,1) 89%, rgba(236,225,165,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(255,255,255,1)), color-stop(76%,rgba(249,246,227,1)), color-stop(89%,rgba(236,225,165,1)), color-stop(100%,rgba(236,225,165,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 1%,rgba(249,246,227,1) 76%,rgba(236,225,165,1) 89%,rgba(236,225,165,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  rgba(255,255,255,1) 1%,rgba(249,246,227,1) 76%,rgba(236,225,165,1) 89%,rgba(236,225,165,1) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  rgba(255,255,255,1) 1%,rgba(249,246,227,1) 76%,rgba(236,225,165,1) 89%,rgba(236,225,165,1) 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  rgba(255,255,255,1) 1%,rgba(249,246,227,1) 76%,rgba(236,225,165,1) 89%,rgba(236,225,165,1) 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ece1a5',GradientType=0 ); /* IE6-9 */
+
+		/** /Color Zilla **/
+	
+	overflow: hidden;
+}
+
+body{ height: 100%; border: 0px solid red;}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+#wrapper{
+	width: 900px;
+	height: 100%;
+	border: 0px solid red;
+	margin: auto;
+	position: relative;	
+	background-color: #ece1a5;
+	background-image: url('../images/sprite_sea_bottom.png'), url('../images/sprite_sea_bottom.png'), url('../images/sprite_sea_bottom.png');
+	background-position: left bottom, center bottom, right bottom;
+	background-repeat: no-repeat;
+	behavior: url(scripts/PIE_uncompressed.htc);
+}
+
+
+
+#header{
+	border: 0px solid orange;
+	height: 89px;
+	position: relative;
+	background-color: #fff;
+}
+
+
+
+#Olimpia_heading{
+	font-size: 45px;
+	font-size: 4.5rem;
+	font-family: Kokila;
+	color: #930;
+	float: left;
+	line-height: 89px;	
+	margin-left: 20px;
+}
+#house_logo{
+	float: left;
+	line-height: 89px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+
+#GuestHouse_heading{
+	font-size: 35px;
+	font-size: 3.5rem;
+	font-family: "Gabriola";
+	color: #930;
+	line-height: 89px;
+	float: left;
+	margin-left: 20px;
+}
+#navigation{
+	height: 65px;
+	width: 100%;
+	border: 0px solid black;	
+	background: #b3a762 url('../images/menu_decoration.png') no-repeat bottom right;
+	
+}
+
+#navigation ul{
+	position: absolute;
+	left: 0px;
+	
+	border: 0px dotted black;
+}
+#navigation ul:after{
+	clear: both;
+}
+#navigation ul  li{
+
+	border: 0px solid red;
+	display: inline-block;
+	*display: inline;  /** making inline-block working for lt IE10 **/
+	zoom: 1;
+	
+}
+#testing_positioning{
+	width: 200px;
+	height: 20px;
+	border: 2px solid brown;
+
+}
+
+#svVlas_image{
+	border: 2px solid #930;	
+	margin-top: 3px;
+	width: 434px;
+	height: 80px;
+	position: absolute;
+	right: 1px;
+	background-image: url('../gallery/svVlas.jpg');
+}
+
+/** menu **/
+
+#home{
+	width: 220px;
+	height: 60px;
+	background: #b3a762 url('../images/menu_sprite.png') no-repeat;
+	margin-left: 20px;
+}
+#price{
+	width: 220px;
+	height: 60px;
+	background: #b3a762 url('../images/menu_sprite.png') no-repeat left -63px;
+	margin-left: 10px;
+}
+#contacts{
+	width: 260px;
+	height: 60px;
+	background: #b3a762 url('../images/menu_sprite.png') no-repeat left -131px;
+	margin-left: 10px;
+}
+.alink{
+	border: 0px solid green;
+	width: 100%;
+	color: #fff;
+	font-family: "Gulim";
+	font-size: 30px;
+	font-size: 3.0rem;
+	display: inline-block;
+	line-height: 60px;
+
+}
+/** /menu **/
+
+/** content section **/
+
+#content{
+	width: 100%;
+	border: 1px slolid green;
+	height: 297px;
+	background: #fff url('../images/separator_line.png') repeat-x bottom left;
+}
+
+#gallery{
+	width: 390px;
+	height: 292px;
+	border-left: 1px solid brown;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+}
+
+#welcome{
+	width: 508px;
+	height: 292px;
+	display: inline-block;
+	border-right: 1px solid brown;
+	color: #5c3b1d;
+	position: absolute;
+	right: 0px;
+	
+}
+h3{
+	font-size: 32px;
+	font-size: 3.2rem;
+	font-family: "Plantagenet Cherokee";
+	color: #5c3b1d;
+	margin-top: 10px;
+}
+#welcome_text{
+	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 90%;
+	text-align: justify;
+	margin-top: 0px;
+	padding: 0 28px;
+	font-family: "Plantagenet Cherokee";
+	
+}
+
+/** /content section **/
+
+/** aside - bottom **/
+
+aside p {  width: 182px; position: absolute; top: 148px; left: 15px; overflow: hidden; display: inline-block; border: 0px solid red;}
+
+aside{
+	width: 220px;
+	height: 180px;
+	background-color: rgba(179, 167, 98, 0.7); 
+	border: 2px solid #633;
+	border-radius: 5px 10px;
+	text-align: center;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	
+	overflow: hidden;
+
+	font-size: 17px;
+	font-size: 1.7rem;
+	font-family: "Georgia Pro";
+	behavior: url(scripts/PIE_uncompressed.htc);
+}
+
+#left_aside{ position: absolute; left: 30px; }
+#middle_aside{ position: absolute; left: 320px; }
+#right_aside{ position: absolute; right: 30px; }
+
+.aside_image{
+	width: 182px;
+	height: 137px;
+	border: 2px solid #633;
+	border-radius: 5px 10px;
+	margin-top: 5px;
+	display: inline-block;
+	
+	
+	*display: inline;
+	zoom: 1;	
+}
+
+#seaview{
+	background-image: url('../gallery/seaview_180.jpg');
+}
+#garden{
+	background-image: url('../gallery/barbeque_180.jpg');
+}
+
+@media screen and (max-height: 768px){
+	#left_aside{ left: 30px; margin: 30px;}
+	#middle_aside{  left: 310px; margin: 30px;}
+	#right_aside{ right: 30px; margin: 30px;}
+}
+
+
+
+
+
+@media screen and (min-height: 768px){
+	#header{
+		
+		height: 152px;		
+	}
+	
+	#Olimpia_heading{
+		font-size: 55px;
+		font-size: 4.5rem;
+		float: left;
+		line-height: 150px;
+		
+		margin-left: 20px;
+	}
+	#house_logo{
+		float: left;
+		line-height: 89px;
+		margin-top: 49px;
+		margin-left: 10px;
+	}
+
+
+	#GuestHouse_heading{
+		font-size: 45px;
+		font-size: 3.5rem;
+
+		line-height: 150px;
+		float: left;
+		margin-left: 10px;
+	}
+	
+	#svVlas_image{
+		border: 2px solid #930;	
+		margin-top: 1px;
+		height: 146px;
+		width: 434px;
+		background-image: url('../gallery/svVlas_150.jpg');
+	}
+	
+	aside{
+		position: absolute;
+		
+		height: 220px;		
+		font-size: 20px;
+		font-size: 2.0rem;
+		
+		
+	}
+	#left_aside{ margin-top: 7%;}
+	#middle_aside{ margin-top: 7%;}
+	#right_aside{ margin-top: 7%;}
+}
+
+
+@media screen and (min-height: 1001px){
+
+	
+	aside{
+		position: absolute;
+		margin-top: 70px;
+		height: 280px;		
+		font-size: 24px;
+		font-size: 2.4rem;
+
+	}
+	#left_aside{ margin-top: 70px;}
+	#middle_aside{ margin-top: 70px;}
+	#right_aside{ margin-top: 70px;}
+}
+
+/** /aside - bottom **/

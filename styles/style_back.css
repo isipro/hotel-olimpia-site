@@ -1,0 +1,140 @@
+/**  reset  **/
+
+html, body, div, header, footer, section, img, article, nav, ul, li, p, h1, h2, h3, h4, h5{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+html, body{
+	font: 62.5% "Georgia", "Verdana", san-serif;
+	color: #fff;
+	
+	/** background:url('') no-repeat 0 center #fff;**/
+	
+}
+
+/** header **/
+
+
+#wapper{
+	width: 900px;
+	margin: auto;
+}
+#header{
+	width: 100%;
+	border: 0px solid red;
+	height: 82px;
+	border: 1px solid green;
+}
+h1{ display: inline-block; border: 0px solid green;}
+h1{
+	color: #930;
+	height: 84px;
+	
+	width: 100%;
+	
+}
+#Olimpia_heading{
+	
+	color: inherit;
+	font-size: 42px;
+	font-size: 4.2rem;
+	font-family:  "Kokila";
+	padding-left: 35px;
+	border: 0px solid red;
+	
+}
+#GuestHouse_heading{
+	font-size: 33px;
+	font-size: 3.3rem;
+	font-family: "Gabriola";
+	font-weight: 600;
+	color: inherit;
+	padding-left: 10px;
+	
+}
+#house_logo{ margin-left: 10px; margin-top: 15px;}
+#svVlas_image{ 
+	border: 2px solid #930;
+	margin-top: 0px; 
+	height: 80px;
+	/**float: right; **/
+	position: relative;
+	right: -100px;
+}
+h2{ width: 42%; }
+
+#navigation{
+	height: 65px;
+	width: 100%;
+	margin-top: 4px;
+	background-color: #b3a762;
+	border: 1px solid green;
+}
+#navigation > ul{
+	width: 850px;
+	border: 1px solid red;
+	
+}
+#menu_tag{
+	height: 65px;
+	width: 20px;
+	background-color: #5c3b1d;
+	/** float: left;  **/
+	
+	border: 0px solid red;
+}
+
+/** if IE **/
+#navigation > ul > li{
+	float: left;
+	/** display: inline-block; **/
+	border: 0px solid green;
+	padding-left: 2px;
+
+	line-height: 65px;
+	text-align: left;
+	padding-left: 69px;
+	vertical-align: middle;
+	width: 130px;
+	
+	
+}
+#home{
+	width: 69px;
+	height: 60px;
+	background: #b3a762 url('../images/menu_sprite.png') no-repeat;
+	margin-left: 20px;
+}
+#price{
+	width: 69px;
+	height: 60px;
+	background: #b3a762 url('../images/menu_sprite.png') no-repeat left -63px;
+	margin-left: 1px;
+}
+#contacts{
+	width: 69px;
+	height: 60px;
+	background: #b3a762 url('../images/menu_sprite.png') no-repeat left -131px;
+	margin-left: 1px;
+}
+.alink{
+	border: 0px solid black;
+	width: 100%;
+	color: #fff;
+	font-family: "Gulim";
+	font-size: 32px;
+	font-size: 3.2rem;
+	padding-left: 10px;
+	display:inline-block;
+}
+
+
+/** /header **/
+
+/**  **/

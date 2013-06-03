@@ -1,0 +1,33 @@
+section, aside, article{
+	border: 1px solid black;
+	height: 20px;
+	display: inline-block;
+}
+
+.div{
+	height: 30px;
+	width: 50px;
+	float: left;
+	border: 2px solid red;
+}
+#a5{
+	width: 50px;
+	border: 3px solid black;
+	color: red;
+}
+
+div:nth-child(odd){
+	clear: left;
+}
+
+
+#wapper{
+	border: 2px solid blue;
+	overflow: auto; 
+	/** expands the float elements container 
+	(when only floats in the container)**/
+}
+div{
+	width: 100%;
+	border: 3px solid green;
+}
