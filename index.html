@@ -5,15 +5,19 @@
 		<title>Hotel Olimpia - Sveti Vlas</title>
 		<link rel="stylesheet" type="text/css" href="styles/style.css" >
 		
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge">		
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">	
 		
-		<script type="text/javascript" src="scripts/jquery.js"></script>		
-		<script src="scripts/PIE_uncompressed.js"></script>
 		
 		<!--[if lt IE 10]>
 		<script src="scripts/html5shiv.js"></script>
 		<script type="text/javascript" src="scripts/css3-mediaqueries.js"></script>
-		<![endif]-->		
+		<![endif]-->	
+		<script type="text/javascript"src="scripts/PIE_uncompressed.js"></script>
+		<script type="text/javascript"src="scripts/jquery.js"></script>
+		<script type="text/javascript" src="scripts/olimpia.js"></script>		
+		
+		
+	
 		
 	</head>
 	
@@ -31,10 +35,10 @@
 		<nav id="navigation">
 			<div id="menu_tag"></div>
 			<ul	>
-				<li id="home"><a class="alink" href="">Home</a>
-				</li><li id="price"><a class="alink" href="">Price</a>
+				<li id="home"><a class="alink" href=""><span>Home</span></a>
+				</li><li id="price"><a class="alink" href=""><span>Prices</span></a>
 				</li><li id="contacts">
-				<a class="alink" href="">Contacts</a></li>
+				<a class="alink" href=""><span>Contacts</span></a></li>
 				
 			</ul>
 		</nav>
@@ -54,19 +58,36 @@
 				
 			</article>
 		</section>
-		
-			<aside id="left_aside">
-				<div id="seaview" class="aside_image" title="seaview"></div>
+		<footer>
+			<div id="left_aside">
+				<div id="seaview" class="aside_image" title="seaview">
+				
+				</div>
 				<p>The view from the terrace</p>
-			</aside >
-			<aside id="middle_aside">
+			</div >
+			<div id="middle_aside">
 				<div id="garden" class="aside_image"  title="garden"></div>
 				<p>Our gardan and barbeque</p>
-			</aside>
-			<aside id="right_aside">
-			</aside>
+			</div>
+			
+			<div id="right_aside">
+			<h4>Sveti Vlas</h4>
+			<p id="footer_info">
+			The town is located at the foot of the southern slopes of the Balkan Mountains, in the northern part of Burgas Bay. A settlement was founded at the present place of Sveti Vlas in the 2nd century AD by Thracians and Greeks, then called Larissa. It acquired the name Sveti Vlas in the 14th century after Saint Blaise, a monastery dedicated to whom existed in the region.			
+			<a href="http://en.wikipedia.org/wiki/St._Vlas" title="Sveti Vlas - Wikipedia">read more</a>			</p>
+			
+			<!--  but was burnt down in the 14th-18th century by consecutive pirate raids. During the Ottoman rule of Bulgaria, it was known as Kucuk manastir or simply Manastir ("monastery"), while the name Sveti Vlas became official after 1886. The settlement became a climatic sea resort in 1963 and a town on 2 February 2006. Sveti Vlas is the only place on the Bulgarian Black Sea coast where the beaches are facing directly south. -->
+			</div>
+		</footer>
+		
+		
 		
 	</div>
+	
+
+	
+	
+	
 	</body>
 	
 </html>
