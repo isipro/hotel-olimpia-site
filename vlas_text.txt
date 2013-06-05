@@ -1,0 +1,4 @@
+<p id="footer_info">
+			The town is located at the foot of the southern slopes of the Balkan Mountains, in the northern part of Burgas Bay. A settlement was founded at the present place of Sveti Vlas in the 2nd century AD by Thracians and Greeks, then called Larissa. It acquired the name Sveti Vlas in the 14th century after Saint Blaise, a monastery dedicated to whom existed in the region.			
+			<a href="http://en.wikipedia.org/wiki/St._Vlas"  title="Sveti Vlas - Wikipedia">read more</a>			
+</p>

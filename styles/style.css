@@ -6,7 +6,7 @@ html, body, div, header, footer, section, figure, img, article, nav, ul, li, p, 
 	behavior: url(scripts/PIE_uncompressed.htc);
 	border: 0px solid orange;
 }
-
+ 
 img{
 	border: 0;
 }
@@ -228,6 +228,18 @@ h3{
 	
 }
 
+#ceni, #contacts_table{
+	font-size: 15px;
+	font-size: 1.5rem;
+	
+}
+#ceni{
+	margin-top: 10px;
+}
+#contacts_table{
+	margin-top: 220px;
+	margin-left: 20px;
+}
 /** /content section **/
 
 /** footer **/
@@ -276,7 +288,20 @@ footer div{
 }
 
 
-#right_aside p { font-size: 1.4rem; text-align: justify; padding: 2px 5px; }
+#right_aside p { font-size: 14px; font-size: 1.4rem; text-align: justify; padding: 2px 5px; }
+
+
+#roomHas_list{
+	list-style-type: disc;
+	font-size: 2rem;
+	
+	
+}
+#roomHas_list li{
+	padding-left: 20px;
+	list-style-type: circle;
+	margin-top: 5px;
+}
 
 @media screen and (max-height: 768px){
 	#left_aside{ left: 20px; margin: 15px;}
