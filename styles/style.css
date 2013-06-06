@@ -208,7 +208,7 @@ body{ height: 100%; border: 0px solid red;}
 	color: #5c3b1d;
 	position: absolute;
 	right: 0px;
-	
+
 }
 h3{
 	font-size: 32px;
@@ -265,7 +265,7 @@ footer div{
 
 #left_aside{ position: absolute;  }
 #middle_aside{ position: absolute; }
-#right_aside{ width: 300px; position: absolute; background: rgba(179, 167, 98, 0.7) url(../images/border_right_div.png) no-repeat center 160px; }
+#right_aside{ width: 300px; position: absolute; background: rgba(92, 59, 29, 0.7) url(../images/border_right_div.png) no-repeat center 160px; }
 
 .aside_image{
 	width: 182px;
@@ -363,7 +363,7 @@ footer div{
 	
 	#left_aside{ left: 20px; margin: 15px;}
 	#middle_aside{  left: 280px; margin: 15px;}
-	#right_aside{ right: 20px; margin: 15px; background: rgba(179, 167, 98, 0.7) url(../images/border_right_div.png) no-repeat center 185px;}
+	#right_aside{ right: 20px; margin: 15px; background: rgba(92, 59, 29, 0.7) url(../images/border_right_div.png) no-repeat center 185px;}
 }
 
 
@@ -380,7 +380,7 @@ footer div{
 	}
 	#left_aside{ margin-top: 70px;}
 	#middle_aside{ margin-top: 70px;}
-	#right_aside{ right: 20px; margin-top: 70px; background: rgba(179, 167, 98, 0.7) url(../images/border_right_div.png) no-repeat center 245px;}
+	#right_aside{ right: 20px; margin-top: 70px; background: rgba(92, 59, 29, 0.7) url(../images/border_right_div.png) no-repeat center 245px;}
 }
 
 /** /footer **/

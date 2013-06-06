@@ -5,6 +5,7 @@ $(document).ready(function(){
 		$('#price>a').removeClass("current");
 		$('#contacts>a').removeClass("current");
 		$('#welcome').load("welcome.html");
+		$('#welcome').css({"background": ""})
 		$('#right_aside h4').html("Sveti Vlas")
 		$('p#footer_info').load("vlas_text.html");
 		
@@ -14,7 +15,8 @@ $(document).ready(function(){
 		$('#price>a').addClass("current");
 		$('#home>a').removeClass("current");
 		$('#welcome').load("table.html");
-		$('#right_aside h4').html("Every Room Has")
+		$('#welcome').css({"background": ""});
+		$('#right_aside h4').html("Every Room Has");
 		$('p#footer_info').load("every_room_has.html");
 		
 	return false;
@@ -24,7 +26,10 @@ $(document).ready(function(){
 		$('#home>a').removeClass("current");
 		$('#price>a').removeClass("current");
 		$('#welcome').load("contacts.html");
-		$('#welcome').css("background", "url('../images/map_svVlas.jpg') no-repeat center 20px;")
+		$('#welcome').css({"background": "url(images/map_address.jpg) no-repeat top center"})
+		
+		
+		
 	return false;
 	});
 	
